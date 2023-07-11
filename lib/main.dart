@@ -62,16 +62,6 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Container(
                         alignment: Alignment.topCenter,
-                        child: TabPageSelector(
-                          color: DefaultTabController.of(context)?.index == 1
-                              ? Colors.blue[300]
-                              : Colors.grey[400],
-                          selectedColor:
-                              DefaultTabController.of(context)?.index == 1
-                                  ? Colors.white
-                                  : Colors.blue,
-                          indicatorSize: 8,
-                        ),
                       ),
                     ],
                   ),
